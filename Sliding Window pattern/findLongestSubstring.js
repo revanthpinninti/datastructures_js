@@ -18,10 +18,6 @@ function findLongestSubstring(str) {
   }
 
 console.log(findLongestSubstring('abcbc'));  //3
-
-
-
-
 console.log(findLongestSubstring(''));  //0
 console.log(findLongestSubstring('rithmschool'));   //7
 console.log(findLongestSubstring('thisisawesome')); //6
@@ -31,15 +27,5 @@ console.log(findLongestSubstring('longestsubstring'));  //8
 console.log(findLongestSubstring('thisishowwedoit'));   //6
 
 
-
-
-"abcbc"     //3
-
-length = 5
-
-step1: check sliding window with length 5  - false
-step2: check sliding window with length 4 from left to right - false
-step3: check sliding window with length 4 from left to right - false
-step4: check sliding window with length 3 from left to right - true
-step4: check sliding window with length 3 from left to right - false
-step4: check sliding window with length 3 from left to right - false
+// Time complexities - O(n)
+// Space Complexities - O(n)
