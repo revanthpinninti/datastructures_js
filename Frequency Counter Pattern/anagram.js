@@ -28,3 +28,6 @@ console.log(validAnagram('revanth', 'revanthh'));
 console.log(validAnagram('anagram', 'nagaram'));
 console.log(validAnagram('cinema', 'iceman'));
 console.log(validAnagram('tele', 'elete'));
+
+//Time Complexity - O(n)
+// Space Complexity - O(n)
