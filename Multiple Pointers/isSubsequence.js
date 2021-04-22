@@ -22,3 +22,6 @@ console.log(isSubsequence('hello', 'hello world')); //true
 console.log(isSubsequence('sing', 'sting'));    //true
 console.log(isSubsequence('abc', 'abracadabra'));   //true
 console.log(isSubsequence('abc', 'acb'));   //false (order matters)
+
+// Time Complexity - O(n)
+// Sapce Complexity - O(1)
