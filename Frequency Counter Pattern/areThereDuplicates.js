@@ -33,3 +33,6 @@ function areThereDuplicates(...arr) {
   console.log(areThereDuplicates(1,2,3));   //false
   console.log(areThereDuplicates(1,2,2));   //true
   console.log(areThereDuplicates('a','b','c','a'));   //true
+
+// Time Complexity - O(n)
+// Space Complexity - O(n)
