@@ -35,3 +35,7 @@ console.log(minSubArrayLen([1,4,16,22,5,7,8,9,10]), 39) //3
 console.log(minSubArrayLen([1,4,16,22,5,7,8,9,10]), 55) //5
 console.log(minSubArrayLen([4,3,3,8,1,2,3]), 11) //2
 console.log(minSubArrayLen([1,3,16,22,5,7,8,9,10]), 95) //0
+
+
+//Time complexity - O(n)
+// Space Complexity - O(1)
